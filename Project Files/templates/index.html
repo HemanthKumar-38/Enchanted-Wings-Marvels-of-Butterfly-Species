@@ -1,0 +1,114 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enchanted Wings</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    .carousel-item {
+      height: 100vh;
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .carousel-caption {
+      bottom: 220px;
+    }
+
+    .quote-box {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 20px 30px;
+      border-radius: 20px;
+      display: inline-block;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .quote-box h5 {
+      font-size: 2.5rem;
+      color: #5105b6;
+    }
+
+    .quote-box p {
+      font-size: 1.2rem;
+      color: #1c0792;
+    }
+
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #d63384;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      color: #333;
+    }
+
+    .nav-link:hover {
+      color: #d63384;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="/">🦋 Enchanted Wings</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="/about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/input">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('/static/uploads/Screen_Free_Active_Fun_GG_blog.webp');">
+        <div class="carousel-caption">
+          <div class="quote-box">
+            <h5>Love is like a butterfly</h5>
+            <p>It goes where it pleases and it pleases wherever it goes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('/static/uploads/Screen_Free_Active_Fun_GG_blog.webp');">
+        <div class="carousel-caption">
+          <div class="quote-box">
+            <h5>Just when the caterpillar thought the world was over</h5>
+            <p>It became a butterfly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
