@@ -7,13 +7,17 @@ Welcome to the **Document folder** of the *Enchanted Wings: Marvels of Butterfly
 - **project.pdf** – Detailed project report including:
   - Introduction
   - Problem Statement
-  - Objective
-  - Technologies Used
-  - Implementation
-  - Results
+  - Purpose
+  - Ideation Phase
+  - Requirement Analysis
+  - Project Design
+  - Project Planning & Scheduling
+  - Functional and Performance Testing
+  - Results with Output Screenshots
+  - Advantages & Disadvantages
   - Conclusion
-  - References
-  - Screenshots
+  - Future Scope
+  - Appendix (Source code links, Dataset link, GitHub & Demo links)
 
 ---
 
@@ -21,10 +25,10 @@ Welcome to the **Document folder** of the *Enchanted Wings: Marvels of Butterfly
 
 - **Project Title:** Enchanted Wings: Marvels of Butterfly Species
 - **Developed by:** Hemanth Kumar Tellakula
+- **Team ID:** LTVIP2025TMID42560
 - **College:** SVR Engineering College, B.Tech CSE-AI
-
-For full source code and deployment instructions, refer to the [Project Files folder](../Project_Files).
 
 ---
 
 © 2025 Butterfly Classification Project
+
