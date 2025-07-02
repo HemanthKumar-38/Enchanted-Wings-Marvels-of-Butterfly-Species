@@ -17,7 +17,6 @@ This is a deep learning web application that classifies butterfly species using 
 ## 📥 Download Model File
 
 👉 [Click here to download vgg16_model.h5](#)  
-*(Replace `#` with your actual model file link)*
 
 ---
 
